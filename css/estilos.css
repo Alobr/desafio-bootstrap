@@ -6,104 +6,34 @@ body {
 
 
 
-
 /* ------------Estilos Nav------------ */
-.navbar {
-  margin-bottom: 0 !important;
+
+
+.navbar-brand>img {
+  width: 55px;
 }
 
 
 
-
-/* ------------Estilos Generales Main Text------------ */
-
-.main-text {
-  background: linear-gradient(rgba(105, 89, 89, 0.271), rgba(109, 96, 96, 0.284)), url(../imagenes/bg-image-main-text.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  width: 100%;
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 65px;
-}
-
-.main-text h1 {
-  color: rgb(255, 248, 248);
-  font-size: 75px;
-  font-weight: 900;
-
-  padding: 10px;
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.main-text p {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-size: 45px;
-  font-weight: 700;
-  margin: 0 15px 0 15px;
-}
 
 
 /* ------------Estilos Inicio------------ */
 
 
-.acord-3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.text-center {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.col-img {
-  padding: 0;
-}
-
-.col-img img {
-  width: 100%;
-  height: 100%;
-}
 
 
 /* ------------Estilos Galeria------------ */
 
 
 
-.col-6 {
-  margin-bottom: 10px;
-}
 
-.col-6 img {
-  width: 100%;
-  height: 100%;
-}
 
-/* ------------Estilos Reservaciones------------ */
 
-.reservas {
-  margin-top: 20px;
-  padding: 200px;
-}
 
-.reservas h2 {
-  font-size: 60px;
-  text-decoration: underline;
-}
+/* ------------Estilos Contacto------------ */
 
-.reservas p {
-  font-size: 35px;
-  margin: 25px 0 25px 0;
+.contact-main-container {
+  margin-top: 150px;
 }
 
 
@@ -112,22 +42,11 @@ body {
 
 
 
-
-
-
-
-
-
+/* ------------Estilos Footer------------ */
 
 
 footer {
-  color: rgb(0, 0, 0);
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-footer p {
-  margin: 0;
-  text-align: center;
 }

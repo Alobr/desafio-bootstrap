@@ -17,39 +17,55 @@
 </head>
 
 <body>
-  <!-- Inicia mi Header -->
-  <header>
-    <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3">
-      <div class="container-fluid">
-        <img src="imagenes/logo.jpg" alt="logo" width="75" height="75" class="d-inline-block align-text-top">
-        <ul class="nav nav-pills">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-togglable fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand d-none d-md-block">
+        <img src="imagenes/logo.jpg" class="rounded img-fluid" alt="logo">
+      </a>
+
+      <h1 class="text-center text-white">MilkShakes</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto text-dark">
           <li class="nav-item">
-            <a class="nav-link fs-4" href="index.html">Inicio</a>
+            <a class="nav-link active" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="paginas/qs.html">Quienes Somos</a>
+            <a class="nav-link" href="paginas/galeria.html">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="paginas/galeria.html">Galeria</a>
+            <a class="nav-link" href="paginas/reserva.html">Reservaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="paginas/reserva.html">Reservaciones</a>
+            <a class="nav-link" href="paginas/qs.html">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="paginas/contacto.html">Contacto</a>
+            <a class="nav-link" href="paginas/contacto.html">Contacto</a>
           </li>
         </ul>
-    </nav>
-  </header>
-  <!-- Inicia mi Main -->
-  <main>
-    <div class="main-text">
-      <h1>MilkShakes</h1>
-      <p>Un café único ubicado en el corazón de Buenos Aires. Café y muffins siempre recién hechos. Abierto para comidas
-        en el interior y pedidos para llevar.</p>
+
+      </div>
     </div>
-
-
+  </nav>
+  <!-- Header -->
+  <header>
+    <div class="container contact-main-container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 text-center">
+          <h1 class="display-6 mb-5 fw-bold text-uppercase text-black border border-4 border-dark rounded">MilkShakes
+          </h1>
+          <img src="../imagenes/bg-image-main-text.jpg" class="shadow-lg p-0 mb-5 bg-body rounded-pill img-fluid"
+            alt="image">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -194,9 +210,9 @@
         </div>
 
   </main>
-
+  <!-- Footer -->
   <footer>
-    <p>Todos los derechos reservados || Alonso Bracho</p>
+    <p class="text-center m-0 text-white bg-dark">Todos los derechos reservados || Alonso Bracho</p>
   </footer>
 
   <!-- Link Script Bootstrap -->

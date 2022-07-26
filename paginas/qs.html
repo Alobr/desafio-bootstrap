@@ -17,39 +17,58 @@
 </head>
 
 <body>
-  <!-- Inicia mi Header -->
-  <header>
-    <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3">
-      <div class="container-fluid">
-        <img src="../imagenes/logo.jpg" alt="logo" width="75" height="75" class="d-inline-block align-text-top">
-        <ul class="nav nav-pills">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-togglable fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand d-none d-md-block">
+        <img src="../imagenes/logo.jpg" class="rounded img-fluid" alt="logo">
+      </a>
+
+      <h1 class="text-center text-white">MilkShakes</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto text-dark">
           <li class="nav-item">
-            <a class="nav-link fs-4" href="../index.html">Inicio</a>
+            <a class="nav-link" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="qs.html">Quienes Somos</a>
+            <a class="nav-link" href="galeria.html">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="galeria.html">Galeria</a>
+            <a class="nav-link" href="reserva.html">Reservaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="reserva.html">Reservaciones</a>
+            <a class="nav-link active" href="qs.html">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
         </ul>
-    </nav>
-  </header>
-  <!-- Inicia mi Main -->
-  <main>
-    <div class="main-text">
-      <h1>Quienes Somos</h1>
-    </div>
 
-    <div class="container text-center">
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header>
+    <div class="container contact-main-container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 text-center">
+          <h1 class="display-6 mb-5 fw-bold text-uppercase text-black border border-4 border-dark rounded">Quienes Somos
+          </h1>
+          <img src="../imagenes/bg-image-main-text.jpg" class="shadow-lg p-0 mb-5 bg-body rounded-pill img-fluid"
+            alt="image">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main>
+    <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-lg-8">
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsam, provident modi, hic sequi eaque
             excepturi facilis odio quo maxime pariatur eligendi odit deleniti sit in cupiditate iste eos sint quidem
@@ -67,16 +86,40 @@
             Fugiat provident ullam natus voluptatibus aut, saepe odit molestias libero, velit adipisci eius eum labore.
           </p>
         </div>
-        <div class="col-4 col-img">
-          <img src="https://dummyimage.com/440x500/000/fff" alt="foto">
+        <div class="col-4">
+          <img src="../imagenes/qs-image-1.jpg"
+            class="img-fluid d-none d-lg-block shadow-lg p-0 mb-5 bg-body rounded-circle" alt="foto">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="../imagenes/qs-image-2.jpg"
+            class="img-fluid d-none d-lg-block shadow-lg p-0 mb-5 bg-body rounded-circle" alt="foto">
+        </div>
+        <div class="col-lg-8">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsam, provident modi, hic sequi eaque
+            excepturi facilis odio quo maxime pariatur eligendi odit deleniti sit in cupiditate iste eos sint quidem
+            amet, veniam quod. Facilis quia necessitatibus ad tempora, ut quis, quidem, nesciunt sit voluptatibus
+            similique numquam exercitationem vitae cumque. Rem, velit enim eligendi recusandae corporis ratione possimus
+            maiores sequi molestiae fugit voluptatem eius rerum consequuntur adipisci nihil, obcaecati consectetur
+            tempora ad corrupti facilis sit cumque doloribus id cupiditate. Saepe velit, rerum officiis aspernatur
+            assumenda asperiores reiciendis illo hic fugit, corrupti ratione? Aliquid alias laborum repudiandae, ut
+            voluptates adipisci. Laudantium, adipisci earum mollitia nisi quasi nam at porro voluptatibus, perspiciatis
+            reprehenderit assumenda aliquid ex debitis itaque non unde libero id iure sequi accusamus voluptates
+            voluptatum! Culpa in velit est saepe consequatur! Eaque ex maiores voluptatibus alias minus eos delectus a
+            quisquam, dolorum quaerat praesentium eum sit, cum magnam esse dignissimos quia perspiciatis quibusdam earum
+            quidem sunt at error odio expedita. Error reiciendis voluptatibus alias ipsam aut autem cumque laudantium
+            quos ab omnis, itaque nostrum ratione eveniet dolores dolore distinctio facere rem ad minima libero quo.
+            Fugiat provident ullam natus voluptatibus aut, saepe odit molestias libero, velit adipisci eius eum labore.
+          </p>
         </div>
       </div>
     </div>
 
   </main>
-
+  <!-- Footer -->
   <footer>
-    <p>Todos los derechos reservados || Alonso Bracho</p>
+    <p class="text-center m-0 text-white bg-dark">Todos los derechos reservados || Alonso Bracho</p>
   </footer>
 
   <!-- Link Script Bootstrap -->

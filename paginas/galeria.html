@@ -17,84 +17,93 @@
 </head>
 
 <body>
-  <!-- Inicia mi Header -->
-  <header>
-    <nav id="navbar-example2" class="navbar bg-dark px-3 mb-3">
-      <div class="container-fluid">
-        <img src="../imagenes/logo.jpg" alt="logo" width="75" height="75" class="d-inline-block align-text-top">
-        <ul class="nav nav-pills">
+  <!-- Nav -->
+  <nav class="navbar navbar-expand-lg navbar-togglable fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand d-none d-md-block">
+        <img src="../imagenes/logo.jpg" class="rounded img-fluid" alt="logo">
+      </a>
+
+      <h1 class="text-center text-white">MilkShakes</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto text-dark">
           <li class="nav-item">
-            <a class="nav-link fs-4" href="../index.html">Inicio</a>
+            <a class="nav-link" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="qs.html">Quienes Somos</a>
+            <a class="nav-link active" href="galeria.html">Galeria</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="galeria.html">Galeria</a>
+            <a class="nav-link" href="reserva.html">Reservaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="reserva.html">Reservaciones</a>
+            <a class="nav-link" href="qs.html">Quienes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fs-4" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
         </ul>
-    </nav>
+
+      </div>
+    </div>
+  </nav>
+  <!-- Header -->
+  <header>
+    <div class="container contact-main-container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6 text-center">
+          <h1 class="display-6 mb-5 fw-bold text-uppercase text-black border border-4 border-dark rounded">Galería</h1>
+          <img src="../imagenes/bg-image-main-text.jpg" class="shadow-lg p-0 mb-5 bg-body rounded-pill img-fluid"
+            alt="image">
+        </div>
+      </div>
+    </div>
   </header>
-  <!-- Inicia mi Main -->
+  <!-- Main -->
   <main>
-    <div class="main-text">
-      <h1>Galería</h1>
-    </div>
-
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-6 col-md-4">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+    <div class="container">
+      <div class="row m-3">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-1.jpg" class="img-fluid rounded-circle" alt="">
         </div>
-        <div class="col-6 col-md-4">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-2.jpg" class="img-fluid rounded" alt="">
         </div>
-        <div class="col-6 col-md-4">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-3.jpg" class="img-fluid rounded-circle" alt="">
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+      <div class="row m-3">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-4.jpg" class="img-fluid rounded" alt="">
         </div>
-        <div class="col-6">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-5.jpg" class="img-fluid rounded-circle" alt="">
         </div>
-      </div>
-      <div class="row">
-        <div class="col-6 col-md-4">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
-        </div>
-        <div class="col-6 col-md-4">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
-        </div>
-        <div class="col-6 col-md-4">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-6.jpg" class="img-fluid rounded" alt="">
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+      <div class="row m-3">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-7.jpg" class="img-fluid rounded-circle" alt="">
         </div>
-        <div class="col-6">
-          <img src="https://dummyimage.com/500x500/000/fff" alt="">
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-8.jpg" class="img-fluid rounded" alt="">
+        </div>
+        <div class="col-sm">
+          <img src="../imagenes/gallery-grid-9.jpg" class="img-fluid rounded-circle" alt="">
         </div>
       </div>
     </div>
-
-
-
-
   </main>
-
+  <!-- Footer -->
   <footer>
-    <p>Todos los derechos reservados || Alonso Bracho</p>
+    <p class="text-center m-0 text-white bg-dark">Todos los derechos reservados || Alonso Bracho</p>
   </footer>
 
   <!-- Link Script Bootstrap -->
